@@ -1,0 +1,1520 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/stmcd/ontologies/2019/1/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/stmcd/ontologies/2019/1/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/stmcd/ontologies/2019/1/untitled-ontology-4#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="#License"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This ontology is under the CC0 license.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Borderlands Ontology that describes the characters and settings of the Borderlands video game series.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#TalesFromTheBorderlands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Krieg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BorderlandsSetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MayaClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NishaClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nisha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatriciaTannis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaige"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZeroClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LilithNPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BorderlandsThePreSequalGameSetting"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#License"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayableRoland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baroness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elpis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sasha"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVillian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RolandNPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TinyTIna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Claptrap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BorderlandsThePreSequal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPlayableCharacterOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NPCCharacter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSettingOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enforcer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BorderlandsClasses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacterOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCharacter"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borderlands2GameSetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Playable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VillianHandsomeJack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borderlands1GameSetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salvador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrZed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaughn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Villians"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayableGaige"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gladiator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borderlands1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lilith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommandantSteeleAppearances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soldier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aurelia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GameSettings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LilithClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayableRhys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayableClaptrap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ellie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mordecai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VillianCharacter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Axton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClaptrapNPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borderlands2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hunter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandsomeJackNPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TalesFromTheBorderlandsGameSetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BorderlandsGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JaneySprings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AxtonClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Athena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borderlands"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVillianOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doppelganger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HugoVasquez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngelNPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VillianHugoVasquez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandsomeJack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayableCharacter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayableLilith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Siren"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pandora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JackTheDoppelganger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Felix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HelenaPierce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNPCOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoxxiNPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColonelZarpedon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isClassOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lawbringer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BorderlandsCharacters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VillianColonelZarpedon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SirHammerlock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommandantSteele"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NurseNina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CharacterClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scooter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fragtrap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moxxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wilhelm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Berserker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrazyEarl"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClass"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Angel"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngelNPC"/>
+        <Class IRI="#NPCCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngelNPC"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands1"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athena"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aurelia"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Axton"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AxtonClass"/>
+        <Class IRI="#CharacterClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AxtonClass"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isClassOf"/>
+            <Class IRI="#Soldier"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baroness"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berserker"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borderlands1"/>
+        <Class IRI="#BorderlandsGames"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borderlands1GameSetting"/>
+        <Class IRI="#GameSettings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borderlands1GameSetting"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSetting"/>
+            <Class IRI="#Pandora"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borderlands2"/>
+        <Class IRI="#BorderlandsGames"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borderlands2GameSetting"/>
+        <Class IRI="#GameSettings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borderlands2GameSetting"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSetting"/>
+            <Class IRI="#Pandora"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BorderlandsCharacters"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isClassOf"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BorderlandsThePreSequal"/>
+        <Class IRI="#BorderlandsGames"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BorderlandsThePreSequalGameSetting"/>
+        <Class IRI="#GameSettings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BorderlandsThePreSequalGameSetting"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSetting"/>
+                <Class IRI="#Elpis"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSetting"/>
+                <Class IRI="#Helios"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brick"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CharacterClass"/>
+        <Class IRI="#Borderlands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Claptrap"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClaptrapNPC"/>
+        <Class IRI="#NPCCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClaptrapNPC"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands1"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColonelZarpedon"/>
+        <Class IRI="#Villians"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommandantSteele"/>
+        <Class IRI="#Villians"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommandantSteeleAppearances"/>
+        <Class IRI="#VillianCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommandantSteeleAppearances"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isVillianOf"/>
+            <Class IRI="#Borderlands1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrazyEarl"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doppelganger"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrZed"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ellie"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elpis"/>
+        <Class IRI="#BorderlandsSetting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enforcer"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Felix"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiona"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fragtrap"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaige"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GameSettings"/>
+        <Class IRI="#Borderlands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gladiator"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandsomeJack"/>
+        <Class IRI="#Villians"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandsomeJackNPC"/>
+        <Class IRI="#NPCCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandsomeJackNPC"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isNPCOf"/>
+            <Class IRI="#BorderlandsThePreSequal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HelenaPierce"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helios"/>
+        <Class IRI="#BorderlandsSetting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HugoVasquez"/>
+        <Class IRI="#Villians"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JackTheDoppelganger"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JaneySprings"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Krieg"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lawbringer"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lilith"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LilithClass"/>
+        <Class IRI="#CharacterClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LilithClass"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isClassOf"/>
+            <Class IRI="#Siren"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LilithNPC"/>
+        <Class IRI="#NPCCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LilithNPC"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands2"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#BorderlandsThePreSequal"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#TalesFromTheBorderlands"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maya"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MayaClass"/>
+        <Class IRI="#CharacterClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MayaClass"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isClassOf"/>
+            <Class IRI="#Siren"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mordecai"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moxxi"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoxxiNPC"/>
+        <Class IRI="#NPCCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoxxiNPC"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands1"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands2"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#BorderlandsThePreSequal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NPC"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NPCCharacter"/>
+        <Class IRI="#Borderlands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nisha"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NishaClass"/>
+        <Class IRI="#CharacterClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NishaClass"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isClassOf"/>
+            <Class IRI="#Lawbringer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NurseNina"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pandora"/>
+        <Class IRI="#BorderlandsSetting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatriciaTannis"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Playable"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableCharacter"/>
+        <Class IRI="#Borderlands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableClaptrap"/>
+        <Class IRI="#PlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableClaptrap"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPlayableCharacterOf"/>
+            <Class IRI="#BorderlandsThePreSequal"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableGaige"/>
+        <Class IRI="#PlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableGaige"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPlayableCharacterOf"/>
+            <Class IRI="#Borderlands2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableLilith"/>
+        <Class IRI="#PlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableLilith"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPlayableCharacterOf"/>
+            <Class IRI="#Borderlands1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableRhys"/>
+        <Class IRI="#PlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableRhys"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPlayableCharacterOf"/>
+            <Class IRI="#TalesFromTheBorderlands"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableRoland"/>
+        <Class IRI="#PlayableCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayableRoland"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPlayableCharacterOf"/>
+            <Class IRI="#Borderlands1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhys"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roland"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RolandNPC"/>
+        <Class IRI="#NPCCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RolandNPC"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#Borderlands2"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isNPCOf"/>
+                <Class IRI="#BorderlandsThePreSequal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salvador"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sasha"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scooter"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SirHammerlock"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siren"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soldier"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TalesFromTheBorderlands"/>
+        <Class IRI="#BorderlandsGames"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TalesFromTheBorderlandsGameSetting"/>
+        <Class IRI="#GameSettings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TalesFromTheBorderlandsGameSetting"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSetting"/>
+                <Class IRI="#Helios"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSetting"/>
+                <Class IRI="#Pandora"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TinyTIna"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaughn"/>
+        <Class IRI="#NPC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VillianCharacter"/>
+        <Class IRI="#Borderlands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VillianColonelZarpedon"/>
+        <Class IRI="#VillianCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VillianColonelZarpedon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isVillianOf"/>
+            <Class IRI="#BorderlandsThePreSequal"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VillianHandsomeJack"/>
+        <Class IRI="#VillianCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VillianHandsomeJack"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isVillianOf"/>
+                <Class IRI="#Borderlands2"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isVillianOf"/>
+                <Class IRI="#TalesFromTheBorderlands"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VillianHugoVasquez"/>
+        <Class IRI="#VillianCharacter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VillianHugoVasquez"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isVillianOf"/>
+            <Class IRI="#TalesFromTheBorderlands"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Villians"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wilhelm"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zero"/>
+        <Class IRI="#Playable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZeroClass"/>
+        <Class IRI="#CharacterClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZeroClass"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isClassOf"/>
+            <Class IRI="#Hunter"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Angel"/>
+        <Class IRI="#CrazyEarl"/>
+        <Class IRI="#DrZed"/>
+        <Class IRI="#Ellie"/>
+        <Class IRI="#Felix"/>
+        <Class IRI="#HelenaPierce"/>
+        <Class IRI="#JaneySprings"/>
+        <Class IRI="#Moxxi"/>
+        <Class IRI="#NurseNina"/>
+        <Class IRI="#PatriciaTannis"/>
+        <Class IRI="#Sasha"/>
+        <Class IRI="#Scooter"/>
+        <Class IRI="#SirHammerlock"/>
+        <Class IRI="#TinyTIna"/>
+        <Class IRI="#Vaughn"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Athena"/>
+        <Class IRI="#Aurelia"/>
+        <Class IRI="#Axton"/>
+        <Class IRI="#Brick"/>
+        <Class IRI="#Claptrap"/>
+        <Class IRI="#Fiona"/>
+        <Class IRI="#Gaige"/>
+        <Class IRI="#JackTheDoppelganger"/>
+        <Class IRI="#Krieg"/>
+        <Class IRI="#Lilith"/>
+        <Class IRI="#Maya"/>
+        <Class IRI="#Mordecai"/>
+        <Class IRI="#Nisha"/>
+        <Class IRI="#Rhys"/>
+        <Class IRI="#Roland"/>
+        <Class IRI="#Salvador"/>
+        <Class IRI="#Wilhelm"/>
+        <Class IRI="#Zero"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Baroness"/>
+        <Class IRI="#Berserker"/>
+        <Class IRI="#Doppelganger"/>
+        <Class IRI="#Enforcer"/>
+        <Class IRI="#Fragtrap"/>
+        <Class IRI="#Gladiator"/>
+        <Class IRI="#Hunter"/>
+        <Class IRI="#Lawbringer"/>
+        <Class IRI="#Siren"/>
+        <Class IRI="#Soldier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Borderlands"/>
+        <Class IRI="#BorderlandsCharacters"/>
+        <Class IRI="#BorderlandsClasses"/>
+        <Class IRI="#BorderlandsGames"/>
+        <Class IRI="#BorderlandsSetting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Borderlands1"/>
+        <Class IRI="#Borderlands2"/>
+        <Class IRI="#BorderlandsThePreSequal"/>
+        <Class IRI="#TalesFromTheBorderlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ColonelZarpedon"/>
+        <Class IRI="#CommandantSteele"/>
+        <Class IRI="#HandsomeJack"/>
+        <Class IRI="#HugoVasquez"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Elpis"/>
+        <Class IRI="#Helios"/>
+        <Class IRI="#Pandora"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NPC"/>
+        <Class IRI="#Playable"/>
+        <Class IRI="#Villians"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVillian"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCharacterOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isNPCOf"/>
+        <ObjectProperty IRI="#isCharacterOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPlayableCharacterOf"/>
+        <ObjectProperty IRI="#isCharacterOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCharacter"/>
+        <ObjectProperty IRI="#isCharacterOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasClass"/>
+        <ObjectProperty IRI="#isClassOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSetting"/>
+        <ObjectProperty IRI="#isSettingOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasVillian"/>
+        <ObjectProperty IRI="#isVillianOf"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCharacter"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasClass"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSetting"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasVillian"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isCharacterOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isClassOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isNPCOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isPlayableCharacterOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isSettingOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isVillianOf"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCharacter"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClass"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSetting"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVillian"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacterOf"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isClassOf"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isNPCOf"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPlayableCharacterOf"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSettingOf"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVillianOf"/>
+        <Class IRI="#Borderlands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCharacter"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClass"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSetting"/>
+        <Class IRI="#BorderlandsSetting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVillian"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacterOf"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isClassOf"/>
+        <Class IRI="#BorderlandsClasses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isNPCOf"/>
+        <Class IRI="#BorderlandsGames"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPlayableCharacterOf"/>
+        <Class IRI="#BorderlandsGames"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSettingOf"/>
+        <Class IRI="#BorderlandsSetting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isVillianOf"/>
+        <Class IRI="#BorderlandsCharacters"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AngelNPC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Angel as a NPC.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AxtonClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The class Axton is.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Baroness</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allows players to throw out a Frost Diadem Shard that seeks out enemies and attaches to them, dealing constant damage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Berserker</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allows players to holsters thier weapon and proceeds to attack with thier fists. During this time, the character will also gains resistance to all damage and their health will regenerate at a rapid rate as they beats down enemies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Borderlands</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Borderlands is action role-playing first-person shooter video game series set in a space western science fantasy setting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Borderlands1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Created by GearBox Software and published by 2K Games and available on Xbox 360, Xbox One, PS3, PS4, and Computer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Borderlands1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The first game in the series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Borderlands1GameSetting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Where Borderlands 1 takes place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Borderlands2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Created by GearBox Software and published by 2k Games and available on Xbox 360, Xbox One, PS3, PS4, and Computer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Borderlands2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The second game in the series and takes place a few years after Borderlands 1.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Borderlands2GameSetting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Where Borderlands 2 takes place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#BorderlandsCharacters</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The chararcters seen throughout the game series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#BorderlandsClasses</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The differnet playstyles for the playable characters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#BorderlandsGames</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The game titles under the series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#BorderlandsSetting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Where the games take place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BorderlandsThePreSequal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Created by GearBox Software and published by 2K Games Australia and is available on Xbox 360, Xbox One, PS3, PS4, and Computer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BorderlandsThePreSequal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The third installment of the series but takes place betwen Borderlands 1 and Borderlands 2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BorderlandsThePreSequalGameSetting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Where Borderlands: The Pre-Sequal takes place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CharacterClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Each playable character has a battle class that provides the character to have an unique gameplay. Only some of the playable characters will be described.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClaptrapNPC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Claptrap as either a NPC or playable character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CommandantSteeleAppearances</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have the villian Commandant Steele in them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Doppelganger</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allows players to summon two Digi-Jacks to fight for them, who constantly lose health and are continuously resurrected for its duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Elpis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pandora&apos;s Moon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Enforcer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Activation of this skill will deploy Wolf, a floating red combat drone, and Saint, a white support drone. The robots can be recalled, and both of them can receive various upgrades from skills.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fragtrap</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This action skill analyzes the combat situation and chooses the most suitable &quot;Action Package&quot;, providing it with bonuses and an appropriate fighting style for a short period. Some bonuses may also affect nearby teammates. Activating the skill instantly fills the character&apos;s health, and it provides health regeneration for its duration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GameSettings</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Borderlands series have three main settings: Pandora is the planet where majority of the action takes place, Elpis is Pandora&apos;s moon, and Helios is a &quot;H&quot; shaped satilite hovering between Pandora and Elpis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gladiator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">When this skill is activated, the character raises thier shield and is able to absorb incoming frontal damage for a short time. At the end of the duration, or by activating the skill again, the character throws their shield, dealing base damage plus double the absorbed damage if an enemy is hit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HandsomeJackNPC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have the villian Handsome Jack in them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Helios</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A satilate between Pandora and Elpis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hunter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allows the play to summon a predatory avian that can be unleashed upon enemies to damage or kill them. Also allows for high damage when using a pistol or sniper.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lawbringer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This skill enables the character to automatically aim at enemies in front of her for a short time. The character gains increased Gun Damage, Fire Rate, Reload Speed, Accuracy, and Bullet Speed for the duration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LilithClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The class Lilith is.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LilithNPC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Lilith as either a NPC or playable character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MayaClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The class Maya is.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MoxxiNPC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Moxxi as a NPC.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#NPC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Non-playable Characters seen throughout the series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NPCCharacter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Which games does a NPC (non-playable chacater) appear in. This section will only describe some of the series characters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NishaClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The class Nisha is.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pandora</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Planet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Playable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The playable characters available.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PlayableCharacter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Which character is a playable character and where can you play as them. This section will only describe some of the series characters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PlayableClaptrap</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Claptrap as a playable character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PlayableGaige</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Gaige as a playable character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PlayableRhys</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Phys as a playable character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PlayableRoland</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Poland as a playable character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RolandNPC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have Roland as either a NPC or playable character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Siren</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Each Siren has an ability unique to themselves, albeit sharing similar characteristics. ther known traits include being able to power themselves up physically. The class can allow characters to deliver empowered melee strikes in close quarters that can match or, depending on skill investments, exceed the damage inflicted by a number of the other characters&apos; melee weapon strikes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Soldier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Action Skill is a sentry gun called the Scorpio Turret; a turret that shoots enemies and also provides a shield for cover.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TalesFromTheBorderlands</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Created and Published by Telltale Games and is available on Xbox 360, Xbox One, PS3, PS4, Computer, and Android/iOS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TalesFromTheBorderlands</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The fourth installment of the series, takes place sometime after Borderlands 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TalesFromTheBorderlandsGameSetting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Where Tales From the Borderlands takes place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VillianCharacter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Which villians are from what games. This section will only describe some of the series characters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VillianColonelZarpedon</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games that have the villian Commandant Steele in them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VillianHandsomeJack</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games where Handsome Jack is the villian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VillianHugoVasquez</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The games where Hugo Zasquez is the villian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#Source"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://borderlands.com/en-US/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Definition"/>
+        <IRI>#Villians</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The main villians of the series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZeroClass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The class Zero is.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
